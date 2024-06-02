@@ -2202,3 +2202,62 @@ textarea:focus {
 .footer-copyright-text p {
 	color: #fff;
 }
+
+
+.sobre-nos {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+.sobre-nos img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	object-fit: cover;
+}
+
+.sobre-nos .descricao {
+	flex: 1;
+	padding: 20px;
+	
+}
+
+.sobre-nos .descricao h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 42px;
+	font-weight: normal;
+	line-height: 26px;
+	font-weight: bolder;
+	margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+	.sobre-nos {
+		flex-wrap: nowrap;
+	}
+
+	.sobre-nos img {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.sobre-nos .descricao {
+		width: 50%;
+		padding: 20px;
+	}
+
+	.sobre-nos .descricao h2{
+		font-family: 'Raleway', sans-serif;
+		font-size: 45px;
+		font-weight: normal;
+		line-height: 26px;
+		font-weight: bolder;
+		margin-bottom: 35px;
+		margin-top: 20px;
+	}
+}
