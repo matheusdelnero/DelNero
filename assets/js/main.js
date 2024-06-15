@@ -187,3 +187,27 @@
 		$('.preloader').delay(350).fadeOut('slow');
 	});
 })(jQuery);
+
+
+//MAPS
+
+function initMap() {
+	// Coordenadas do local que deseja mostrar no mapa
+	var myLatLng = {lat: -23.55052, lng: -46.633308};
+
+	// Opções do mapa
+	var mapOptions = {
+		zoom: 15, // Nível de zoom
+		center: myLatLng // Centro do mapa nas coordenadas definidas
+	};
+
+	// Criar um novo mapa no elemento #map
+	var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+	// Adicionar marcador no mapa
+	var marker = new google.maps.Marker({
+		position: myLatLng,
+		map: map,
+		title: 'Localização'
+	});
+}

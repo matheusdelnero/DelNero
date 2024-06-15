@@ -2262,46 +2262,29 @@ textarea:focus {
 	}
 
 
-	video {
-		width: 100%;
-		max-width: 100%;
-		height: auto; /* Mantém a proporção do vídeo */
-		border: 2px solid #333;
-		border-radius: 10px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	}
 	
-	/* Centraliza o vídeo na página */
-	.video-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: auto; /* Ajusta a altura automaticamente */
-		background-color: #f9f9f9;
-		padding: 10px;
-	}
 	
-	/* Media Queries para responsividade */
-	@media (max-width: 1200px) {
-		video {
-			max-width: 90%;
-		}
-	}
 	
-	@media (max-width: 992px) {
-		video {
-			max-width: 80%;
-		}
-	}
-	
-	@media (max-width: 768px) {
-		video {
-			max-width: 70%;
-		}
-	}
-	
-	@media (max-width: 576px) {
-		video {
-			max-width: 100%;
-		}
-	}}
+
+
+
+
+
+	/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+gmp-map {
+	height: 100%;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  }
+
+
+
+
+}
