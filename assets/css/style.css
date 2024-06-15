@@ -955,12 +955,12 @@ ul {
 .about-main-banner {
 	position: relative;
 }
-.about-main-banner img {
+.about-main-banner video {
 	border-radius: 3px;
-	max-width: 480px;
+	max-width: 380px;
 	margin: 0 auto;
 }
-.about-banner-2 img {
+.about-banner-2 video {
 	right: 0px;
 	left: auto;
 	position: absolute;
