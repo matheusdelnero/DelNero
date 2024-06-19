@@ -2219,7 +2219,7 @@ textarea:focus {
 	height: auto;
 	object-fit: cover;
 	padding-right: 40px;
-	padding-top: 60px;
+	margin-top: 50px;
 }
 
 .sobre-nos .descricao {
