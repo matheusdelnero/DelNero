@@ -2286,6 +2286,13 @@ gmp-map {
   }
 
 
+  .fa-whatsapp {
+	color: #25D366; /* Cor verde do WhatsApp */
+	font-size: 24px; /* Tamanho do ícone */
+	margin-left: 5px; /* Espaçamento à esquerda do ícone */
+}
+
+
 
 
 }
