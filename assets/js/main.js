@@ -58,8 +58,8 @@
 		// Scroll Event
 		$(window).on('scroll', function () {
 			var scrolled = $(window).scrollTop();
-			if (scrolled > 300) $('.back-to-top').addClass('active');
-			if (scrolled < 300) $('.back-to-top').removeClass('active');
+			if (scrolled > 800) $('.back-to-top').addClass('active');
+			if (scrolled < 800) $('.back-to-top').removeClass('active');
 		});
 		// Click Event
 		$('.back-to-top').on('click', function () {
@@ -71,7 +71,7 @@
 	// Testimonials owl
 	$('#testimonial-slide').owlCarousel({
 		margin: 0,
-		autoplay: true,
+		autoplay: false,
 		autoplayTimeout: 4000,
 		nav: false,
 		smartSpeed: 800,
